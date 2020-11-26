@@ -1,0 +1,151 @@
+
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+input{
+    border: none;
+    margin: 3%;
+}
+
+textarea{
+    border: none;
+}
+.title{
+display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;
+  color: #FFF;
+  border-radius: 4px;
+  box-shadow: 0px 0px 0px 5px #668ad8;
+  border: dashed 1px #FFF;
+  margin: 1em;
+}
+
+.name01{
+    font-weight: bold;
+    font: white;
+}
+.nametitle {
+	position: relative;
+	width: 80%;
+	margin: 4px 3%;
+}
+.nametitle[type='text'] {
+	
+    border: none;
+}
+.namae input[type='text']:focus {
+	/* border-bottom: 2px solid #da3c41; */
+    /* outline: none; */
+    border: none;
+} 
+
+.btn{
+    display: flex;
+
+}
+
+#send{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: lightblue;
+  color: #FFF;
+  border-radius: 4px;
+  box-shadow: 0px 0px 0px 5px lightblue;
+  border: dashed 1px #FFF;
+  margin: 1em;
+}
+
+#send:hover {
+  border: dotted 1px #FFF;
+}
+#delite{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: lightpink;
+  color: #FFF;
+  border-radius: 4px;
+  box-shadow: 0px 0px 0px 5px lightpink;
+  border: dashed 1px #FFF;
+  margin: 1em;
+}
+
+#delite:hover {
+  border: dotted 1px #FFF;
+}
+
+
+
+body{
+    background-color: lightyellow;
+    width: 50%;
+    font-style: initial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+}
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+main{
+    border-bottom:1px solid #ccc;
+}
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+}
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    /* table-layout: fixed;
+    width:100%;
+}
+li{
+    text-align: center;
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    /* cursor: pointer;
+}
+li:hover{
+    background: #0066CC;
+    color:#fff;
+} */ 
